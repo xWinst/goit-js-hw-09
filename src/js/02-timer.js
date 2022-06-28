@@ -44,7 +44,7 @@ start.addEventListener('click', startTimer);
 
 function startTimer() {
     start.setAttribute('disabled', 'true');
-    timerId = setInterval(updateTimer, 1000);
+    const timerId = setInterval(updateTimer, 1000);
 }
 
 function updateTimer() {
